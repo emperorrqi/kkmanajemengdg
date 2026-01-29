@@ -1,0 +1,77 @@
+## Path
+cd C:\Users\PLN\kkpmanajementgudang
+
+## cetak
+buatkan versi final entry_barang_pesanan.php lengkap dengan tombol Cetak Pesanan via browser tanpa FPDF
+cetak basterima seperti entry pesanan
+
+## 
+docker-compose down
+docker-compose up --build
+
+## CARA HAPUS sql
+docker start manajementgudang-mysql
+docker exec -it manajementgudang-mysql mysql -u root -prootpassword
+pass..
+USE manajementgudang;
+DROP DATABASE manajementgudang;
+
+## CARA BALIKIN sql
+docker start manajementgudang-mysql
+docker exec -it manajementgudang-mysql mysql -u root -prootpassword
+Get-Content .\sql\init.sql | docker exec -i manajementgudang-mysql mysql -u root -prootpassword manajementgudang
+pass..
+CREATE DATABASE manajementgudang;
+Use manajementgudang;
+
+##ddd
+exit;
+docker exec -i manajementgudang-mysql mysql -u root -prootpassword manajementgudang < sql/init.sql
+docker exec -it manajementgudang-mysql mysql -u root -prootpassword
+USE manajementgudang;
+SHOW TABLES;
+drag init.sql
+
+## FS(0)
+USE manajementgudang;
+DROP DATABASE manajementgudang;
+
+#FS (1)
+docker start manajementgudang-mysql
+docker exec -it manajementgudang-mysql mysql -u root -prootpassword
+
+CREATE DATABASE manajementgudang;
+USE manajementgudang;
+exit;
+
+## FS(2) powershell
+docker start manajementgudang-mysql
+Get-Content sql/init.sql -Raw | docker exec -i manajementgudang-mysql mysql -u root -prootpassword manajementgudang
+
+docker exec -i manajementgudang-mysql mysql -u root -prootpassword manajementgudang < sql/init.sql
+
+## FS(2) CMD
+docker start manajemengudang-mysql
+type sql\init.sql | docker exec -i manajemengudang-mysql2 mysql -u root -prootpassword manajemengudang2
+
+
+## FS (3)
+docker start manajementgudang-mysql
+docker exec -it manajementgudang-mysql mysql -u root -prootpassword
+USE manajementgudang;
+SHOW TABLES;
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/emperorrqi/sistempersediaanbarangelektronik.git
+git push -u origin main
+
+git remote add origin https://github.com/emperorrqi/sistempersediaanbarangelektronik.git
+git branch -M main
+git push -u origin main
+
+https://railway.app/
+
+ihgedBsnysOkDSBNRHKSjKZAhEcWTELj
