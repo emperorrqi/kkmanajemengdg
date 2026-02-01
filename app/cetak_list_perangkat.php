@@ -121,7 +121,7 @@ button{
         <h3>Form Check List Perangkat</h3>
     </div>
 
-    <img src="logo.png2" alt="Logo Kanan">
+    <img src="logo.png" alt="Logo Kanan">
 </div>
 
 <hr>
@@ -181,4 +181,5 @@ foreach ($sn_list as $sn):
 
 </body>
 </html>
+
 
