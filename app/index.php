@@ -10,7 +10,7 @@ if (!isset($_SESSION['username'])) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dashboard | Sistem Persediaan Barang</title>
+  <title>Dashboard | Sistem Persediaan Barang Elektronik</title>
 
   <style>
     * { box-sizing: border-box; }
@@ -166,3 +166,4 @@ if (!isset($_SESSION['username'])) {
 
 </body>
 </html>
+
