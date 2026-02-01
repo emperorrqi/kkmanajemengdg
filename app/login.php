@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Login - Sistem Persediaan Barang</title>
+  <title>Login - Sistem Persediaan Barang Elektronik</title>
   <style>
     body {
       background-color: #f4f4f4;
@@ -120,3 +120,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 </body>
 </html>
+
