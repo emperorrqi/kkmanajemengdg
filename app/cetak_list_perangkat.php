@@ -174,10 +174,11 @@ foreach ($sn_list as $sn):
     </td>
     <td width="50%">
         PIHAK KEDUA<br><br><br><br>
-        <b><?= htmlspecialchars($data['penerima']) ?></b>
+        <b>( ____________________ )</b>
     </td>
 </tr>
 </table>
 
 </body>
 </html>
+
