@@ -233,11 +233,10 @@ button:hover {
         <button type="submit">MASUK SISTEM</button>
     </form>
 
-    <div class="footer">
-      ####///  Belum punya akun? <a href="register.php">Daftar di sini</a>
-    </div>
+
 
 </div>
 
 </body>
 </html>
+
