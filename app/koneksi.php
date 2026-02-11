@@ -1,11 +1,20 @@
 <?php
-$host = 'db';
-$user = 'user';
-$pass = 'password';
-$db = 'manajementgudang';
+$DB_HOST = getenv("DB_HOST");
+$DB_USER = getenv("DB_USER");
+$DB_PASS = getenv("DB_PASS");
+$DB_NAME = getenv("DB_NAME");
+$DB_PORT = getenv("DB_PORT");
 
-$mysqli = new mysqli($host, $user, $pass, $db);
+// Koneksi ke MySQL Aiven
+$mysqli = new mysqli(
+    $DB_HOST,
+    $DB_USER,
+    $DB_PASS,
+    $DB_NAME,
+    $DB_PORT
+);
+
 if ($mysqli->connect_errno) {
-    die("Gagal koneksi ke database: " . $mysqli->connect_error);
+    die("Koneksi ke database gagal: " . $mysqli->connect_error);
 }
 ?>
